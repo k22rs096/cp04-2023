@@ -216,6 +216,11 @@
             $("#remain").html("残り時間:"+rest);
 
         }
+
+        if(rest <= 0){
+            active =false;
+            alarm();
+        }
         
     } 
 
