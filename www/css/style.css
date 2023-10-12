@@ -31,6 +31,7 @@
         color: #ff0000;
         font-size: 20px;
         text-align: center;
+        font-weight: bold;
         position:absolute; top:310px; 
         left:10px; right:10px;
     }
@@ -52,7 +53,8 @@
     }
     
     #btnA {
-      background-color: yellow;
+      background-color: rgba(81, 0, 255, 0.676);
+      color: rgb(255, 251, 0);
         font-size: 20px;
         position:absolute; top:380px; left:2%; width:43%; height:60px; 
     }
