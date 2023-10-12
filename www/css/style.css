@@ -37,8 +37,9 @@
     }
     
     #time {
-        color: #ff0000;
+        color: #f6ff00;
         font-size: 20px;
+        width: 50%;
         text-align: center;
         box-shadow: 5px 5px 5px;
         position:absolute; top:340px; 
