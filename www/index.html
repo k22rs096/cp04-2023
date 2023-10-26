@@ -207,7 +207,8 @@
         period = 60*parseInt($("#minute").val())+parseInt($("#second").val());
         $("#time").html("経過時間:0");
         $("#remain").html("残り時間:0"+period);
-        
+        $("#time").css("color","black");
+        $("#remain").css("color","black");
     }
     
  
@@ -222,6 +223,9 @@
             if(rest == 0){
                 $("#time").html("終了");
                 $("#remain").html(" ");
+                $("#time").css("color","red");
+            }else if(rest <= 5){
+                $("#remain").css("color","red");
             }
 
         }
